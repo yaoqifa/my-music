@@ -118,7 +118,7 @@ export default {
             flex-direction: column
             justify-content: center
             flex: 1
-            line-height: 20px
+            line-height: 44px
             overflow: hidden
             font-size: $font-size-medium
             .name
