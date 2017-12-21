@@ -109,7 +109,6 @@ export default {
       }
       index = index < 0 ? 0 : index
       index = index > this.listHeight.length - 2 ? this.listHeight.length - 2 : index
-      console.log(index)
       this.scrollY = -this.listHeight[index]
       this.$refs.listview.scrollToElement(this.$refs.listgroup[index], 0)
     },
